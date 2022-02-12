@@ -1,6 +1,7 @@
 package com.todo.project.hellotodoList.repository;
 
 import com.todo.project.hellotodoList.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 

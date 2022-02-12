@@ -3,6 +3,8 @@ package com.todo.project.hellotodoList.service;
 import com.todo.project.hellotodoList.domain.Member;
 import com.todo.project.hellotodoList.repository.MemberRepository;
 import com.todo.project.hellotodoList.repository.MemoryMemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
